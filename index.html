@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Real Estate company home page </title>
+  <link rel="stylesheet" href="index.css" href="index.js" />
+  <link rel="icon" type="image/svg+xml" href="assets/prolog.png"> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+</head>
+
+
+<body>
+  <section>
+    <div class="header">
+      <div class="logo">ProNest</div>
+
+      <div class="hamburger" onclick="toggleMenu()">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+
+      <div class="menu" id="navMenu">
+        <div class="nav-links">
+          <a href="about.html">About Us</a>
+          <a href="Properties.html">Properties</a>
+          <a href="Services">Services</a>
+          <a href="blogs.htm">Blog</a>
+          <a href="add-property"><span class="ad-prop"> Add Property </span></a>
+          <a href="testimony.html">Testimonials</a>
+        </div>
+      </div>
+      <div>
+        <a href="contact-us.html" class="contact-btn">Contact Us</a>
+      </div>
+      <script>
+        function toggleMenu() {
+          var menu = document.getElementById("navMenu");
+          menu.classList.toggle("active");
+        }
+      </script>
+  </section>
+
+
+  <!-- section 2 -->
+
+
+  <section>
+    <div class="hero">
+      <div class="hero-text">
+        <h2>THE PREMIER CHOICE<br>IN REAL ESTATE<br>SERVICES.</h2>
+        <p>
+          Managing, Leasing, Selling. Our comprehensive real <br />
+          estate management app is designed to meet all your<br />
+          property needs.
+        </p>
+        <a href="#" class="contact-btn">Contact Us</a>
+      </div>
+
+      <div class="hero-images">
+        <div class="image-box small">
+          <img src="assets/imag-w.png" class="small">
+        </div>
+        <div class="big-house">
+          <img src="assets/image-l.jpg" alt="Big House">
+          <button class="listing">+3K Listings</button>
+        </div>
+      </div>
+  </section>
+
+
+  <!-- section 3 -->
+  <section class="services-container">
+    <h2>Real Estate Management<br>Services</h2>
+    <div class="card-row">
+      <div class="card card-wide">
+        <div class="card-header">
+          <h3>Property Listings</h3>
+          <div class="icon-place"><img src="assets/fire1.png" /> </div>
+        </div>
+        <p>Easily browse and manage all your property listings with our user-friendly platform.</p>
+      </div>
+      <div class="card card-narrow">
+        <div class="card-header Generate">
+          <h3>Financial<br>Reporting</h3>
+          <div class="icon-place"><img src="assets/came.png" /></div>
+        </div>
+        <span class="fin">
+          <p> detailed financial<br />
+            statements and performance reports<br />
+            to stay on top of your property's<br />
+            financial health.</p>
+        </span>
+      </div>
+    </div>
+
+    <div class="card-row">
+      <div class="card card-narrow">
+        <div class="card-header">
+          <h3>Service <br /> Requests</h3>
+          <div class="icon-place"><img src="assets/lol2.png" /></div>
+        </div>
+        <p>Efficiently handle maintenance<br /> requests and work orders through <br /> our app.</p>
+      </div>
+
+      <div class="card card-wide">
+        <div class="card-header">
+          <h3>Tenant Management</h3>
+          <div class="icon-place"><img src="assets/lol1.png" /></div>
+        </div>
+        <p>Keep track of tenant information and lease agreements<br />
+          without hassle. Our app allows you to store and manage<br />
+          all necessary details.</p>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- section 4 -->
+  <section>
+    <div class="properties-container">
+      <h2>Latest Properties</h2>
+      <p class="expla">
+        Our website aims to provide a seamless and user-friendly experience<br>
+        for individuals and families searching for their dream home.
+      </p>
+
+      <div class="LP-CARDS">
+        <div class="carro1">
+          <div class="lp-card1">
+            <div class="property-card">
+              <div class="image-b">
+                <img src="assets/img1.jpg" class="image-b" />
+                <a href="#" class="rent-tag"><span class="Rtag">For Rent</span></a>
+              </div>
+              <div class="card-details">
+                <h3>Cedar Ridge Villas</h3>
+                <p class="distance">26 miles away</p>
+                <div class="price">$1,560<span>/</span><span class="p-span">month</span></div>
+                <div class="divider"></div>
+                <div class="features">
+                  <img src="assets/icon1.png" /> <span>4</span>
+                  <img src="assets/icon1 (2).png"><span> 5</span>
+                  <img src="assets/icon2.png" /> <span>2,560.00 sqft</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="property-card">
+              <div class="image-b">
+                <img src="assets/img2.jpg" class="image-b" />
+                <a href="#" class="rent-tag">
+                  <sapn class="Rtag">For Rent</span>
+                </a>
+              </div>
+              <div class="card-details">
+                <h3>Maplewood Estates</h3>
+                <p class="distance">34 miles away</p>
+                <div class="price">$1,224<span>/month</span></div>
+                <div class="divider"></div>
+                <div class="features">
+                  <img src="assets/icon1.png" /><span> 4</span>
+                  <img src="assets/icon1 (2).png"><span> 3</span>
+                  <img src="assets/icon2.png" /> <span> 2,080.00 sqft</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carro2">
+          <div class="property-card">
+            <div class="image-b">
+              <img src="assets/img3.jpg" class="image-b" />
+              <a href="#" class="rent-tag"><span class="Rtag">For Rent</span></a>
+            </div>
+            <div class="card-details">
+              <h3>Pine Hill Residences</h3>
+              <p class="distance">40 miles away</p>
+              <div class="price">$1,024<span>/month</span></div>
+              <div class="divider"></div>
+              <div class="features">
+                <img src=assets/icon1.png /><span> 3</span>
+                <img src="assets/icon1 (2).png"><span> 4</span>
+                <img src="assets/icon2.png" /><span> 2,096.00 sqft</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="property-card">
+            <div class="image-b">
+              <img src="assets/img4.jpg" class="image-b" />
+              <a href="#" class="rent-tag"><span class="Rtag">For Rent</span></a>
+            </div>
+            <div class="card-details">
+              <h3>Brookside Manor</h3>
+              <p class="distance">38 miles away</p>
+              <div class="price">$2,024<span>/month</span></div>
+              <div class="divider"></div>
+              <div class="features">
+                <img src=assets/icon1.png /><span> 6</span>
+                <img src="assets/icon1 (2).png"><span> 5</span>
+                <img src="assets/icon2.png" /><span> 3,096.00 sqft</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- section 4 -->
+  <section>
+    <div class="about-container">
+      <div class="about-body">
+        <div class="about-o">
+          <h2>About Our Real Estate<br /> Company</h2>
+          <div class="image-wrapper">
+            <div class="img-box img-main">
+              <img src="assets/ab img.png">
+            </div>
+
+            <div class="img-box img-overlap">
+              <img src="assets/ab img2.png" />
+            </div>
+          </div>
+        </div>
+        <div class="content-wrapper">
+          <div class="experience-badge">
+            <div class="badge-top">
+              <span class="experience-number">25<sup><img src="assets/plus sighn.png" /></sup></span>
+              <div class="star-icon">
+                <i class="fa-solid fa-asterisk"><img src="assets/star.png" /></i>
+              </div>
+            </div>
+            <p class="badge-text">Years Of Real Estate Experience</p>
+          </div>
+
+          <p class="description-text">
+            Our agency takes a collaborative approach, working closely with you to understand<br />
+            your business, how to grow up, craft personalized marketing solutions that align with<br />
+            our vision, and stay updated with the latest trends.</p>
+
+          <div class="arrow-btn">
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">
+              <i class="fa-regular fa-bookmark"><img src="assets/abic (1).png" /> </i>
+            </div>
+            <div class="feature-info">
+              <h3>High Standert</h3>
+              <p>Lorem ipsum dolor sit amet consectetur. Malesua vehicula netu urna in elit amet.</p>
+            </div>
+          </div>
+
+          <div class="feature-item">
+            <div class="feature-icon">
+              <i class="fa-regular fa-comment"> <img src="assets/abic (2).png" /> </i>
+            </div>
+            <div class="feature-info">
+              <h3>Ease Of Communication</h3>
+              <p>Lorem ipsum dolor sit amet consectetur. Malesua vehicula netu urna in elit amet.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="testimonials-section">
+    <h2>Discover our clients experiences</h2>
+    <div class="testimonials-grid">
+      <!-- Card 1 -->
+      <div class="testimonial-card">
+        <p>"ProRank exceeded my expectations!,<br /> Their platform is intuitive, user-<br />friendly, and efficient.
+          Found my <br />dream home in no time! Highly <br />recommended."</p>
+        <div class="user-profile">
+          <div class="image-placeh">
+            <img src="assets/pac1 (7).png" />
+          </div>
+          <div class="user-details">
+            <h4>Emily Chen</h4>
+            <span>Marketing Manager</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="testimonial-card">
+        <p>"ProRank's expert agents provided <br />exceptional service, guiding me <br />through every step. Their
+          local<br /> market knowledge is unparalleled."</p>
+        <div class="user-profile">
+          <div class="image-placeh">
+            <img src="assets/pac1 (6).png" />
+          </div>
+          <div class="user-details">
+            <h4>David Lee</h4>
+            <span>Entrepreneur</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="testimonial-card">
+        <p>"ProRank's seamless search <br />functionality saved me time and <br />stress. Their mobile app is
+          <br />convenient and easy to use."
+        </p>
+        <div class="user-profile">
+          <div class="image-placeh">
+            <img src="assets/pac1 (5).png" />
+          </div>
+          <div class="user-details">
+            <h4>Sarah Taylor</h4>
+            <span>Doctor</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="testimonial-card">
+        <p>"ProRank's property alerts kept me <br>informed about new listings <br />instantly. Their website is modern
+          <br />and easy to navigate."
+        </p>
+        <div class="user-profile">
+          <div class="image-placeh">
+            <img src="assets/pac1 (4).png" />
+          </div>
+          <div class="user-details">
+            <h4>Mark Davis</h4>
+            <span>Travel Vlogger</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="testimonial-card">
+        <p>"I highly recommend ProRank for<br /> reliable and efficient real estate<br /> services. Their team is
+          knowledgeable <br />and responsive."</p>
+        <div class="user-profile">
+          <div class="image-placeh">
+            <img src="assets/pac1 (3).png" />
+          </div>
+          <div class="user-details">
+            <h4>Rachel Patel</h4>
+            <span>Lawyer</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="testimonial-card">
+        <p>"ProRank's market analysis tools <br />helped me make informed investment<br /> decisions. Accurate and
+          up-to-date<br /> data."</p>
+        <div class="user-profile">
+          <div class="image-placeh">
+            <img src="assets/pac1 (2).png" />
+          </div>
+          <div class="user-details">
+            <h4>James Martin</h4>
+            <span>Investment Banker</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="artsec-wrapper">
+    <div class="artsec-main-box">
+      <div class="artsec-head-area">
+        <h1 class="artsec-head-title">Latest Articles</h1>
+        <p class="artsec-head-subtext">Find the best property recommendations, expert advice,<br>through our buying
+          and selling secrets.</p>
+      </div>
+
+      <div class="artsec-grid-holder">
+
+        <div class="artsec-post-block">
+          <div>
+            <div class="artsec-media-frame">
+              <img src="assets/article (3).png" />
+            </div>
+            <div class="artsec-heading-text">Home Staging Tips to Attract Buyers Quickly</div>
+          </div>
+          <div class="artsec-author-bar">
+            <div class="artsec-user-meta">
+              <div class="artsec-avatar-frame"><img src="assets/article (1).png"> </div>
+              <div class="artsec-user-text">
+                <h4>Brooklyn Simmons</h4>
+                <span>July 12, 2024</span>
+              </div>
+            </div>
+            <span class="artsec-next-pointer">&#8594;</span>
+          </div>
+        </div>
+
+        <div class="artsec-post-block">
+          <div>
+            <div class="artsec-media-frame">
+              <img src="assets/article (2).png" />
+            </div>
+            <div class="artsec-heading-text">Navigating the Mortgage Approval Process</div>
+          </div>
+          <div class="artsec-author-bar">
+            <div class="artsec-user-meta">
+              <div class="artsec-avatar-frame"><img src="assets/article (5).png" /> </div>
+              <div class="artsec-user-text">
+                <h4>Annette Black</h4>
+                <span>July 10, 2024</span>
+              </div>
+            </div>
+            <span class="artsec-next-pointer">&#8594;</span>
+          </div>
+        </div>
+
+        <div class="artsec-post-block">
+          <div>
+            <div class="artsec-media-frame">
+              <img src="assets/article (4).png" />
+            </div>
+            <div class="artsec-heading-text">The Ultimate Checklist for First-Time Home Buyers</div>
+          </div>
+          <div class="artsec-author-bar">
+            <div class="artsec-user-meta">
+              <div class="artsec-avatar-frame"><img src="assets/article (6).png" /></div>
+              <div class="artsec-user-text">
+                <h4>Ralph Edwards</h4>
+                <span>July 8, 2024</span>
+              </div>
+            </div>
+            <span class="artsec-next-pointer">&#8594;</span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+    </div>
+  </section>
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#" class="logo">ProNest</a>
+        </div>
+        <nav class="footer-nav">
+          <a href="about.html">About Us</a>
+          <a href="Properties.html">Properties</a>
+          <a href="Services.html">Services</a>
+          <a href="blogs.htm">Blog</a>
+          <a href="add-property.html">Add Property</a>
+          <a href="testimony.html">Testimonials</a>
+        </nav>
+      </div>
+
+      <div class="footer-socials">
+        <a href="#" aria-label="Email"><i class="fa-regular fa-envelope"><img src="assets/socia icon (1).png" /></i></a>
+        <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"><img src="assets/socia icon (2).png" />
+          </i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"><img src="assets/socia icon (3).png" />
+          </i></a>
+      </div>
+      <hr class="footer-divider" />
+      <div class="footer-bottom">
+        <p>&copy; 2024 ProNest. All rights reserved.</p>
+      </div>
+
+    </div>
+  </footer>
+
+</html>
+</body>

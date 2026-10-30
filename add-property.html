@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Add Properties Real Estate </title>
+  <link rel="stylesheet" href="add-property.css"  />
+  <link rel="icon" type="image/svg+xml" href="assets/prolog.png">
+  <link rel="icon" type="image/svg+xml" href="assets/prolog.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+</head>
+
+
+<body>
+  <section>
+    <div class="header">
+      <div class="logo">ProNest</div>
+
+      <div class="hamburger" onclick="toggleMenu()">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+
+      <div class="menu" id="navMenu">
+        <div class="nav-links">
+          <a href="about.html">About Us</a>
+          <a href="Properties.html">Properties</a>
+          <a href="Services.html">Services</a>
+          <a href="blogs.htm">Blog</a>
+          <a href="add-property.html"><span class="ad-prop"> Add Property </span></a>
+          <a href="testimony.html">Testimonials</a>
+        </div>
+      </div>
+      <div>
+        <a href="contact-us.html" class="contact-btn">Contact Us</a>
+      </div>
+      <script>
+        function toggleMenu() {
+          var menu = document.getElementById("navMenu");
+          menu.classList.toggle("active");
+        }
+      </script>
+  </section>
+
+  <section>
+    <form class="form-box">
+    <h3>Client Info</h3>
+    <div class="row">
+      <div class="field">
+        <label>Your Name</label>
+        <input type="text" placeholder="Enter your name">
+      </div>
+      <div class="field">
+        <label>Your Email</label>
+        <input type="email" placeholder="Email address">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="field">
+        <label>Phone Number</label>
+        <input type="text" placeholder="Enter phone number">
+      </div>
+      <div class="field">
+        <label>State</label>
+        <input type="text" placeholder="Enter state">
+      </div>
+    </div>
+
+    <hr>
+
+    <!-- PROPERTY INFO -->
+    <h3>Property Info</h3>
+
+    <div class="row">
+      <div class="field">
+        <label>Property Name</label>
+        <input type="text" placeholder="Enter property name">
+      </div>
+      <div class="field">
+        <label>Property Type</label>
+        <select>
+          <option>Property Type</option>
+          <option>House</option>
+          <option>Apartment</option>
+          <option>Land</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="field">
+        <label>Agency</label>
+        <select>
+          <option>Villa Estate Agency</option>
+          <option>Prime Homes</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>Agent Name</label>
+        <select>
+          <option>Select Agent</option>
+          <option>Agent One</option>
+          <option>Agent Two</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="field">
+        <label>Price</label>
+        <select>
+          <option>Select price</option>
+          <option>Below 50,000</option>
+          <option>50,000 - 100,000</option>
+          <option>Above 100,000</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>Location</label>
+        <select>
+          <option>Location</option>
+          <option>Ilorin</option>
+          <option>Lagos</option>
+          <option>Abuja</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="field">
+        <label>Bedroom</label>
+        <select>
+          <option>Select rooms</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>Bathrooms</label>
+        <select>
+          <option>Select rooms</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+        </select>
+      </div>
+    </div>
+
+    <hr>
+
+    <h3>Amenities</h3>
+    <div class="amenities">
+      <label><input type="checkbox"> Free Wi-Fi</label>
+      <label><input type="checkbox"> 24/7 Security</label>
+      <label><input type="checkbox"> Retail Shop</label>
+      <label><input type="checkbox"> Child Hubs</label>
+      <label><input type="checkbox"> Fitness Center</label>
+      <label><input type="checkbox"> School</label>
+      <label><input type="checkbox"> Spa</label>
+      <label><input type="checkbox"> Swimming Pool</label>
+    </div>
+
+    <hr>
+
+    <!-- DESCRIPTION -->
+    <div class="field">
+      <label>Description</label>
+      <textarea placeholder="Add short description"></textarea>
+    </div>
+
+  </form>
+
+  </section>
+
+    <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#" class="logo">ProNest</a>
+        </div>
+        <nav class="footer-nav">
+          <a href="about.html">About Us</a>
+          <a href="Properties.html">Properties</a>
+          <a href="Services.html">Services</a>
+          <a href="blogs.htm">Blog</a>
+          <a href="add-property.html"> <span class="ad-pro"> Add Property </span></a>
+          <a href="testimony.html">Testimonials</a>
+        </nav>
+      </div>
+
+      <div class="footer-socials">
+        <a href="#" aria-label="Email"><i class="fa-regular fa-envelope"><img src="assets/socia icon (1).png"  /></i></a>
+        <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"><img src="assets/socia icon (2).png"  /> </i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"><img src="assets/socia icon (3).png"/>   </i></a>
+      </div>
+      <hr class="footer-divider" />
+      <div class="footer-bottom">
+        <p>&copy; 2024 ProNest. All rights reserved.</p>
+      </div>
+
+    </div>
+  </footer>
+
+</html>
+</body>
